@@ -179,6 +179,15 @@
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
+  }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+  .flex {
+    display: flex;
+  }
   .table {
     display: table;
   }
@@ -187,6 +196,12 @@
   }
   .resize {
     resize: both;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .border {
     border-style: var(--tw-border-style);
