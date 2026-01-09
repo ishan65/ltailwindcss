@@ -274,6 +274,11 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .md\:justify-end {
+    @media (width >= 48rem) {
+      justify-content: flex-end;
+    }
+  }
 }
 @property --tw-border-style {
   syntax: "*";
